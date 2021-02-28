@@ -1,0 +1,3 @@
+
+
+echo $PT_mytaskvar
