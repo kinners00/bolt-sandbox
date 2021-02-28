@@ -1,0 +1,38 @@
+# This is an example inventory.yaml
+# To read more about inventory files, see https://pup.pt/bolt-inventory
+#
+# groups:
+#   - name: linux1
+#     targets:
+#       - target1.example.com
+#       - target2.example.com
+#     config:
+#       transport: ssh
+#       ssh:
+#         user: mynixuser
+#         run-as: root
+#         private-key: /path/to/private_key.pem
+#         host-key-check: false
+#   - name: linux2
+#     targets:
+#       - target1.example.com
+#       - target2.example.com
+#     config:
+#       transport: ssh
+#       ssh:
+#         user: mynixuser
+#         password: 'myuserpass'
+#         run-as: root
+#         sudo-password: 'mysudopass'
+#   - name: windows
+#     targets:
+#       - name: win1
+#         uri: target3.example.com
+#       - name: win2
+#         uri: target4.example.com
+#     config:
+#       transport: winrm
+#       winrm:
+#         user: Administrator
+#         password: 'Bolt!'
+#         ssl: false
