@@ -1,3 +1,0 @@
-2021-02-28T22:59:58.398566 DEBUG  [main] [Bolt::Analytics] Failed to initialize analytics client, analytics will be disabled: Input/output error @ io_writev - <STDERR>
-2021-02-28T22:59:58.402461 INFO   [main] [Bolt::Logger] Loaded project from '/home/ionica/code/bolt_sandbox'
-2021-02-28T23:00:00.709963 DEBUG  [main] [Bolt::PAL] Loading modules from /opt/puppetlabs/bolt/lib/ruby/gems/2.7.0/gems/bolt-3.0.0/bolt-modules:/home/ionica/code/bolt_sandbox/modules:/home/ionica/code/bolt_sandbox/.modules:/opt/puppetlabs/bolt/lib/ruby/gems/2.7.0/gems/bolt-3.0.0/modules
