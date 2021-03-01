@@ -30,3 +30,16 @@ plan bolt_sandbox::myplan(
   # ctrl::sleep(10)
   # wait_until_available($targets, wait_time => 300)
   # fail_plan("Something went wrong!")
+  
+  # apply_prep($targets)
+
+  # notice('Applying puppet code example')
+  # apply($targets, '_run_as' => 'root'){
+  #  file { '/opt/var/test.txt':
+  #    ensure  => file,
+  #    content => 'this file contains sample content to prove this functionality works'
+  #  }
+  
+  # warning("Alert! My plan has came to an end...")
+  
+  
