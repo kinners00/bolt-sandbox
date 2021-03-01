@@ -23,6 +23,7 @@ out::message('Running mytask')
   }
 
 }
+
 # /Some examples of types of steps you can use within a plan - more can be found at https://puppet.com/docs/bolt/latest/plan_functions.html 
 
   # upload_file($file_local, $file_dest, $targets)
@@ -31,6 +32,7 @@ out::message('Running mytask')
   # run_task('bolt_sandbox::mytasknix', $targets, {'mytaskvar' => $mytaskvar })
   # run_script('/var/tmp/myscript', $targets, '_run_as' => 'root')
   # run_script('iis/setup.ps1', $target, 'arguments' => ['/u', 'Administrator'])
+  # run_plan('bolt_sandbox::myplan', $targets, mytaskvar => 'hello')
   # ctrl::sleep(10)
   # wait_until_available($targets, wait_time => 300)
   # fail_plan("Something went wrong!")
@@ -46,3 +48,6 @@ out::message('Running mytask')
   #    ensure  => file,
   #    content => 'this file contains sample content to prove this functionality works'
   #  }
+
+  # $content = 'Hello, world!'
+  # write_file($content, '/Users/me/hello.txt', $targets)
