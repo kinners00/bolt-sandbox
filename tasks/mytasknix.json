@@ -1,0 +1,10 @@
+{
+    "description": "This is a task which echos a bolt param input",
+    "input_method": "stdin",
+    "parameters": {
+      "mytaskvar": {
+          "description": "I'll take any var, so long as it's a String of at least 4 characters",
+           "type": "String[4]"
+      }
+    }
+  }
