@@ -5,7 +5,7 @@ plan bolt_sandbox::myplan(
 
 out::message('Checking OS version')
 
-# Use puppet agent/facter to determine target OS for further actions below - apply_prep is installs puppet agent in dormant state to enable profiling of targets facts via facter (built into puppet agent)
+# Use puppet agent/facter to determine target OS for further actions below - apply_prep installs puppet agent in dormant state to enable profiling of targets facts via facter (built into puppet agent)
   $targets.apply_prep
 
   $win_targets = get_targets($targets).group_by |$target| { $target.facts['kernel'] }['windows']
