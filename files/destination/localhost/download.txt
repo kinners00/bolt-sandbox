@@ -1,1 +1,0 @@
-I'm an example of the type of a file that you can place here to leverage in your bolt project.
