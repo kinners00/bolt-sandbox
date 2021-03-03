@@ -44,7 +44,7 @@ You don't have to! Bolt is language agnostic, so you can use whatever you're mos
 
 ![alt text](https://raw.githubusercontent.com/kinners00/files/main/DahUIvIU0AA_EbJ.jpeg)
 
- You can use Bolt with any scripting/programming language beit bash, powershell, python, ruby etc so long as your target can run it, Bolt can execute it.
+ You can use Bolt with any scripting/programming language beit bash, powershell, python, ruby etc. Put simply, if your target can run it locally, Bolt can handle it.
 
  ## What's the catch? Targets must need prequisities of some kind
 
