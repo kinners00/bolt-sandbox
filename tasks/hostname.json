@@ -1,0 +1,7 @@
+{
+    "description": "This is a task shows the targets hostname via the hostname command",
+    "implementations": [
+      { "name": "hostname.sh", "requirements": ["shell"] },
+      { "name": "hostname.ps1", "requirements": ["powershell"] }
+    ]
+}
