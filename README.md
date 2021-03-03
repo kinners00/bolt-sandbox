@@ -4,7 +4,6 @@ A sandbox-type project to aid learning around Bolt and it's various functionalit
 
 If you've never used bolt before, start your journey below!
 
-- [All things Bolt](#all-things-bolt)
    - [What is Bolt?](#what-is-bolt)
    - [What are the use cases for Bolt?](#what-are-the-use-cases-for-bolt)
    - [Sorry, I don't have time to learn another language right now](#sorry-i-dont-have-time-to-learn-another-language-right-now)
@@ -44,7 +43,7 @@ You don't have to! Bolt is language agnostic, so you can use whatever you're mos
 
 ## Any language, surely you can't be serious?
 
-![alt text](https://drive.google.com/uc?export=view&id=1YfumMjJZngQnQJ4o09Msbqq0UjLRGWGC)
+![alt text](https://raw.githubusercontent.com/kinners00/files/main/DahUIvIU0AA_EbJ.jpeg)
 
  You can use Bolt with any scripting/programming language beit bash, powershell, python, ruby etc so long as your target can run it, Bolt can execute it.
 
