@@ -20,11 +20,17 @@ You'll use the bolt_sandbox project in the coming labs to get up and running wit
 
 1. Download and [install bolt](https://puppet.com/docs/bolt/latest/bolt_installing.html)
 2. Download or clone this repository (https://github.com/kinners00/bolt_sandbox)
-3. Navigate to the ```bolt_sandbox``` directory in your shell
+3. Navigate to the ```bolt_sandbox``` directory in your shell (```bolt_sandbox-master``` if you downloaded repo)
 4. Run ```bolt task show``` 
 
+Cloned:
 ```
 ~/code/bolt_sandbox > bolt task show
+```
+
+Downloaded:
+```
+~/code/bolt_sandbox-master > bolt task show
 ```
 
 Output:
@@ -40,7 +46,7 @@ bolt_sandbox::mytaskwin    This is a task which echos a bolt param input
 You should see a similar output as shown above. If not:
 
 - Quit your shell and reopen
-- Ensure you are in the ```bolt_sandbox``` directory
+- Ensure you are in the ```bolt_sandbox``` or ```bolt_sandbox-master``` directory
 
 ## Bolt Functions
 
