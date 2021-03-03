@@ -14,7 +14,7 @@
 
 If you've never used bolt before, the easiest way to get started is with a Bolt project. Bolt projects allow you to keep/organise your Bolt automation in a single space.
 
-You'll use the bolt_sandbox project in the coming labs to up and running.
+You'll use the bolt_sandbox project in the coming labs to get up and running with Bolt.
 
 ## Download Bolt and Sandbox Project
 
