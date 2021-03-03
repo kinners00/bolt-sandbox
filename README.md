@@ -11,9 +11,8 @@ If you've never used bolt before, start your journey below!
    - [What's the catch? Targets must need prequisities of some kind](#whats-the-catch-targets-must-need-prequisities-of-some-kind)
    - [Agentless Connectivity](#agentless-connectivity)
    - [What platforms does Bolt support?](#what-platforms-does-bolt-support)
+   - [Lets get started!](#lets-get-started)
 
-
-## All Things Bolt
 
 ## What is Bolt?
 
@@ -64,3 +63,10 @@ Debian, Fedora, RHEL, SLES, Ubuntu, macOS and Windows - For details on which spe
 **Targets**
 
 Virtually everything - if you can connect to it via SSH/WinRM, you can most likely use it as a target with bolt. This includes things like network devices etc.
+
+## Lets get started!
+
+Begin your bolt journey below:
+
+[**I'm ready!**](https://github.com/kinners00/bolt_sandbox/blob/master/docs/1_intro_to_bolt.md)
+
