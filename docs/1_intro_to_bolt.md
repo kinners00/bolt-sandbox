@@ -12,16 +12,35 @@
 
 ## Bolt Projects
 
-If you've never used bolt before, the easiest way to get started is with a Bolt project. Bolt projects allow you to keep/organise your Bolt automation in a single space. I've created a skeleton of a Bolt project here: 
-https://github.com/kinners00/bolt_sandbox
+If you've never used bolt before, the easiest way to get started is with a Bolt project. Bolt projects allow you to keep/organise your Bolt automation in a single space.
 
 You'll use the bolt_sandbox project in the coming labs to up and running.
 
 ## Download Bolt and Sandbox Project
 
 1. Download and [install bolt](https://puppet.com/docs/bolt/latest/bolt_installing.html)
-2. Download/clone this repo
-3. Navigate to the ```bolt_sandbox``` directory in your shell - your current working directory should be something like ```/Users/myuser/bolt_sandbox```
+2. Download or clone this repository (https://github.com/kinners00/bolt_sandbox)
+3. Navigate to the ```bolt_sandbox``` directory in your shell
+4. Run ```bolt task show``` 
+
+```
+~/code/bolt_sandbox > bolt task show
+```
+
+Output:
+```
+bolt_sandbox::hostname     This is task shows the targets hostname via the hostname command
+bolt_sandbox::mytasknix    This is a task which echos a bolt param input
+bolt_sandbox::mytaskwin    This is a task which echos a bolt param input
+...
+...
+...
+```
+
+You should see a similar output as shown above. If not:
+
+- Quit your shell and reopen
+- Ensure you are in the ```bolt_sandbox``` directory
 
 ## Bolt Functions
 
