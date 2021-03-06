@@ -52,7 +52,7 @@ You don't have to! Bolt is language agnostic, so you can use whatever you're mos
 
 ## Agentless Connectivity
 
-Bolt is agentless by nature and as such connects to nodes via SSH or WinRM. Credential information can be provided by bolt command or stored the inventory.yaml file to save on specifying credentials each time you run a bolt command. 
+Bolt is agentless by nature and as such connects to nodes via SSH or WinRM. Credential information can be provided by bolt command or stored an inventory file, meaning you don't need to specify targets credentials each time you run a bolt command. 
 
 ## What platforms does Bolt support?
 
