@@ -17,7 +17,7 @@ out::message('Running mytask')
   if ($win_targets) {
     run_task('bolt_sandbox::mytasknix', $win_targets, {'mytaskvar' => $mytaskvar })
   } elsif ($nix_targets) {
-    run_task('bolt_sandbox::mytaskwin', $win_targets, {'mytaskvar' => $mytaskvar })
+    run_task('bolt_sandbox::mytaskwin', $nix_targets, {'mytaskvar' => $mytaskvar })
   } else  {
     fail_plan('OS is not compatible!')
   }
