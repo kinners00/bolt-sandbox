@@ -116,7 +116,7 @@ bolt plan run bolt_sandbox::hostname --targets localhost
 ## Upload
 
 ```
-bolt file upload ./files/source/upload.txt ./files/destination/  --targets localhost
+bolt file upload ./files/source/upload.txt ./files/destination/ --targets localhost
 ```
 
 Output:
